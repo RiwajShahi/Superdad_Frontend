@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
+import { useNavigate } from "react-router-dom";
+import { useCart } from "@/context/CartContext";
 
 const navItems = [
   { name: "HOME", path: "/", icon: "🏠" },
@@ -10,6 +12,8 @@ const navItems = [
 ];
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const { state } = useCart();
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -36,10 +40,19 @@ const Navbar = () => {
                 {item.name}
               </Link>
 
-              {/* Underline hover */}
               <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-black transition-all duration-300 group-hover:w-full"></span>
             </li>
           ))}
+
+          {/* 🛒 CART ICON */}
+          <button onClick={() => navigate("/cart")} className="relative">
+            🛒
+            {state.items.length > 0 && (
+              <span className="absolute -top-2 -right-2 bg-black text-white text-xs px-2 rounded-full">
+                {state.items.length}
+              </span>
+            )}
+          </button>
         </ul>
 
         {/* Mobile Hamburger */}
