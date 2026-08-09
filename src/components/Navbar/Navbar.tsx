@@ -134,7 +134,7 @@ const Header = () => {
               <FaTiktok />
             </a>
             <a
-              href="https://wa.me/9861819558"
+              href="https://wa.me/9768590686"
               target="_blank"
               rel="noreferrer"
               className="hover:text-[#E8D5B7] transition"
@@ -384,7 +384,7 @@ const Header = () => {
                     <FaTiktok size={20} />
                   </a>
                   <a
-                    href="https://wa.me/9861819558"
+                    href="https://wa.me/9768590686"
                     target="_blank"
                     rel="noreferrer"
                     className="text-[#5C3D2E] hover:text-[#8B6914] transition"
