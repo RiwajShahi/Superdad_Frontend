@@ -16,7 +16,7 @@ interface ChatPopupProps {
 }
 
 const ChatPopup = ({
-  whatsappNumber = "",
+  whatsappNumber = "9768590686",
   whatsappMessage = "Hi! I have a question about your products.",
   messengerPageId = "",
   position = "bottom-right",

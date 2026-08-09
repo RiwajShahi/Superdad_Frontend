@@ -51,7 +51,7 @@ const TopBar = () => {
           <FaTiktok />
         </a>
         <a
-          href="https://wa.me/your-number"
+          href="https://wa.me/9768590686"
           target="_blank"
           rel="noreferrer"
           className="hover:text-[#E8D5B7] transition"

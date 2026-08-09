@@ -128,8 +128,8 @@ const Footer = () => {
 
             <div className="text-sm text-[#5C3D2E]/70 space-y-1">
               <p>📍 Kathmandu, Nepal</p>
-              <p>📧 support@superdad.com</p>
-              <p>📞 +977-98XXXXXXX</p>
+              <p>📧 superdad0387@gmail.com</p>
+              <p>📞 +977-9768590686</p>
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@ const Footer = () => {
               },
               {
                 Icon: FaWhatsapp,
-                link: "https://wa.me/9861819558",
+                link: "https://wa.me/9768590686",
               },
             ].map(({ Icon, link }, i) => (
               <motion.a
