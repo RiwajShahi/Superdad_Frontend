@@ -48,7 +48,7 @@ const ProductHero = ({ totalCount, category }: Props) => {
           className="relative h-65 md:h-85 rounded-2xl overflow-hidden shadow-md"
         >
           <img
-            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+            src="https://unsplash.com/photos/white-printer-paper-beside-brown-bear-plush-toy-sMjqcAOretU"
             alt="hero"
             className="w-full h-full object-cover"
           />
